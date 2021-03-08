@@ -379,3 +379,49 @@
   position: relative;
   margin-top: 20px;
 }
+
+@media (min-width: 0px) and (max-width: 650px) {
+  .registration__wrapper {
+    width: 330px;
+    padding: 23px;
+  }
+
+  .registration__userName-input,
+  .registration__tel-input,
+  .registration__login-input,
+  .registration__password-input {
+    width: 75%;
+  }
+
+  .registration__userName-label,
+  .registration__tel-label,
+  .registration__login-label,
+  .registration__password-label {
+    transform: translateX(-140px);
+  }
+
+  .registration__submit,
+  .registration__authorization-link {
+    width: 75%;
+  }
+  .authorization__wrapper{
+    width: 330px;
+    padding: 23px;
+    min-height: 100px;
+  }
+  .authorization__login-input,
+  .authorization__password-input {
+    width: 75%;
+  }
+  .authorization__login-label,
+  .authorization__password-label {
+    transform: translateX(-140px);
+  }
+  .authorization__btn,
+  .authorization__registration-link{
+    width: 75%;
+  }
+.authorization__login{
+  margin-top: 20px;
+}
+}

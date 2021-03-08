@@ -112,10 +112,6 @@
   margin: 0;
   padding-top: 20px;
   padding-bottom: 15px;
-  height: 188px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .article__main-author span {
@@ -281,6 +277,20 @@
   &:first-child {
     padding-top: 0;
   }
+}
+.article__load-more{
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background-color: #171717;
+  padding: 16px 58px 16px 58px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
 @media (min-width: 0px) and (max-width: 1199px) {
